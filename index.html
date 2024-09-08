@@ -6,16 +6,25 @@
     <title>Fardin Ganjkhanloo - Academic Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-gray-50 font-sans text-gray-800 leading-normal">
-    <header class="bg-primary text-white py-12 shadow-lg">
-        <div class="container mx-auto px-4 flex items-center">
-            <img src="https://res.cloudinary.com/ddakj6kcs/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1725540152/G49A3304_swnndy.jpg" 
-                 alt="Fardin Ganjkhanloo" 
-                 class="w-32 h-32 rounded-full border-4 border-white shadow-lg mr-8">
-            <div>
+    <header class="bg-primary text-white py-6 shadow-lg">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <img src="https://res.cloudinary.com/ddakj6kcs/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1725540152/G49A3304_swnndy.jpg" alt="Fardin Ganjkhanloo" class="w-32 h-32 rounded-full border-4 border-white shadow-lg mb-4 md:mb-0 md:mr-8">
+            <div class="text-center md:text-left">
                 <h1 class="text-4xl font-bold mb-2">Fardin Ganjkhanloo</h1>
-                <p class="text-xl text-blue-200">Ph.D. Candidate in Civil and Systems Engineering</p>
+                <p class="mb-2">Ph.D. Candidate in Civil and Systems Engineering</p>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="https://scholar.google.com/citations?user=pcbcca4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition duration-300 flex items-center">
+                        <i data-feather="book" class="w-4 h-4 mr-1"></i>
+                        Google Scholar
+                    </a>
+                    <a href="https://www.linkedin.com/in/fardin-ganjkhanloo-0b204279/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition duration-300 flex items-center">
+                        <i data-feather="linkedin" class="w-4 h-4 mr-1"></i>
+                        LinkedIn
+                    </a>
+                </div>
             </div>
         </div>
     </header>
@@ -27,6 +36,7 @@
                 <li><a href="research.html" class="text-primary hover:text-accent transition duration-300">Research</a></li>
                 <li><a href="publications.html" class="text-primary hover:text-accent transition duration-300">Publications</a></li>
                 <li><a href="teaching.html" class="text-primary hover:text-accent transition duration-300">Teaching</a></li>
+                <li><a href="talks.html" class="text-primary hover:text-accent transition duration-300">Talks</a></li>
                 <li><a href="contact.html" class="text-primary hover:text-accent transition duration-300">Contact</a></li>
                 <li><a href="assets/FardinGanjkhanloo_CV.pdf" class="text-primary hover:text-accent transition duration-300" target="_blank" rel="noopener noreferrer">CV</a></li>
             </ul>
@@ -90,5 +100,8 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>
