@@ -6,12 +6,23 @@
     <title>Fardin Ganjkhanloo - Teaching</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-gray-50 font-sans text-gray-800 leading-normal">
     <header class="bg-primary text-white py-6 shadow-lg">
         <div class="container mx-auto px-4">
             <h1 class="text-3xl font-bold">Fardin Ganjkhanloo</h1>
-            <p class="text-xl text-blue-200">Ph.D. Candidate in Civil and Systems Engineering</p>
+            <p class="mb-2">Ph.D. Candidate in Civil and Systems Engineering</p>
+            <div class="flex justify-center md:justify-start space-x-4">
+                <a href="https://scholar.google.com/citations?user=pcbcca4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition duration-300 flex items-center">
+                    <i data-feather="book" class="w-4 h-4 mr-1"></i>
+                    Google Scholar
+                </a>
+                <a href="https://www.linkedin.com/in/fardin-ganjkhanloo-0b204279/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-accent transition duration-300 flex items-center">
+                    <i data-feather="linkedin" class="w-4 h-4 mr-1"></i>
+                    LinkedIn
+                </a>
+            </div>
         </div>
     </header>
 
@@ -24,7 +35,7 @@
                 <li><a href="teaching.html" class="text-primary hover:text-accent transition duration-300">Teaching</a></li>
                 <li><a href="talks.html" class="text-primary hover:text-accent transition duration-300">Talks</a></li>
                 <li><a href="contact.html" class="text-primary hover:text-accent transition duration-300">Contact</a></li>
-                <li><a href="assets/FardinGanjkhanloo_CV.pdf" class="text-primary hover:text-accent transition duration-300" target="_blank" rel="noopener noreferrer">CV</a></li>
+                <li><a href="assets/FardinGanjkhanloo_CV.pdf" class="text-primary hover:text-accent transition duration-300 font-bold" target="_blank" rel="noopener noreferrer">CV</a></li>
             </ul>
         </div>
     </nav>
@@ -34,12 +45,12 @@
         <div class="bg-white shadow-md rounded-lg p-6">
             <h3 class="text-2xl font-semibold mb-4">Johns Hopkins University</h3>
             <ul class="space-y-4">
-                <li>
+                <li class="border-l-4 border-accent pl-4">
                     <h4 class="font-semibold">Teaching Assistant</h4>
                     <p>EN.560.650: Operations Research, Prof. Kimia Ghobadi</p>
                     <p class="text-sm text-gray-600">Fall 2023, 2021</p>
                 </li>
-                <li>
+                <li class="border-l-4 border-accent pl-4">
                     <h4 class="font-semibold">Teaching Assistant & Guest Lecturer</h4>
                     <p>EN.560.250: Introduction to Mathematical Decision Making, Prof. Kimia Ghobadi</p>
                     <p class="text-sm text-gray-600">Spring 2022</p>
@@ -48,12 +59,12 @@
 
             <h3 class="text-2xl font-semibold mb-4 mt-8">Sharif University of Technology</h3>
             <ul class="space-y-4">
-                <li>
+                <li class="border-l-4 border-accent pl-4">
                     <h4 class="font-semibold">Teaching Assistant</h4>
                     <p>Structural Analysis II, Prof. Kiarash Mohtasham Dolatshahi</p>
                     <p class="text-sm text-gray-600">Fall 2015, Spring 2016</p>
                 </li>
-                <li>
+                <li class="border-l-4 border-accent pl-4">
                     <h4 class="font-semibold">Teaching Assistant</h4>
                     <p>Dynamics, Prof. Ali Bakhshi</p>
                     <p class="text-sm text-gray-600">Spring 2014, Fall 2014, Spring 2015</p>
@@ -69,5 +80,8 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>
